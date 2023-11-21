@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: teal;
+    
+}
+
+.container{
+    max-width: 500px;
+    min-width: 500px;
+    height: min-content;
+    background-color: white;
+    /* justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; */
+    border-radius: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.searchTab{
+    padding: 10px;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.searchTab input{
+    font-size: 25px;
+}
+
+.searchTab button{
+    font-size: 25px;
+    color: white;
+    border: none;
+    background-color: teal;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.wordTab{
+    justify-content: space-between;
+    display: flex;
+    padding-top: 10px;
+}
+
+.wordTab p{
+    font-size: 30px;
+    padding-left: 50px;
+    font-weight: 800;
+}
+
+.wordTab i{
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.wordTab button{
+    background-color:transparent ;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    margin-right: 50px;
+
+}
+
+.meanings{
+    display: flex;
+    font-size: 14px;
+    color: grey;
+}
+
+.meanings p{
+    padding-left: 50px;
+
+}
+
+.meanings span{
+    padding-left: 10px;
+}
+
+.definition {
+    padding-top: 30px;
+    font-size: 25px;
+    padding-left: 50px;
+}
+
+.example{
+    padding-left: 35px;
+    padding-top: 30px;
+    font-size: 25px;
+    font-size: italic;
+    padding-bottom: 30px;
+}
+
+.example p{
+    border-left: 5px solid teal;
+    padding-left: 10px;
+}
+
